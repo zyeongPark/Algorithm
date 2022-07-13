@@ -36,6 +36,7 @@
 		E1FAAA02287EF2C20088E4AE /* 18108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 		E1FAAA04287EF3AE0088E4AE /* 10430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
 		E1FAAA06287EF7370088E4AE /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
+		E1FAAA08287EF8330088E4AE /* news.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		E1FAA9FF287EEFFB0088E4AE /* step_2 */ = {
 			isa = PBXGroup;
 			children = (
+				E1FAAA08287EF8330088E4AE /* news.swift */,
 			);
 			path = step_2;
 			sourceTree = "<group>";
