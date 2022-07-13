@@ -13,5 +13,5 @@ var diceArr :[Int] = []
 for i in 0..<3{
     diceArr.append(Int(dice[i])!)
 }
-
-
+print(dice)
+print(diceArr)
