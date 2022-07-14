@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E1FAA9E7287EE93A0088E4AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAA9E6287EE93A0088E4AE /* main.swift */; };
 		E1FAAA07287EF7370088E4AE /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAAA06287EF7370088E4AE /* new.swift */; };
-		E1FAAA17287F75700088E4AE /* 2480.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FAAA16287F75700088E4AE /* 2480.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +93,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E1FAAA18287FA86E0088E4AE /* step_3 */,
 				E1FAA9F3287EEC920088E4AE /* step_1 */,
 				E1FAA9FF287EEFFB0088E4AE /* step_2 */,
 			);
@@ -128,6 +128,13 @@
 				E1FAAA16287F75700088E4AE /* 2480.swift */,
 			);
 			path = step_2;
+			sourceTree = "<group>";
+		};
+		E1FAAA18287FA86E0088E4AE /* step_3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = step_3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +197,6 @@
 			files = (
 				E1FAAA07287EF7370088E4AE /* new.swift in Sources */,
 				E1FAA9E7287EE93A0088E4AE /* main.swift in Sources */,
-				E1FAAA17287F75700088E4AE /* 2480.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
