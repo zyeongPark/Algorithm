@@ -6,3 +6,8 @@
 //
 
 import Foundation
+for number in 1...9 {
+    for multiple in 1...9 {
+        print("\(number) 곱하기 \(multiple)은 \(number*multiple)")
+    }
+}

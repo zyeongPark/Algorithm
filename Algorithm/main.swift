@@ -8,7 +8,8 @@
 import Foundation
 
 var num = Int(readLine()!)!
-
-for i in 1...10{
-    print( \(num) * i = \(num*i) )
+for number in 1...9 {
+    for multiple in 1...9 {
+        print("\(number) 곱하기 \(multiple)은 \(number*multiple)")
+    }
 }
