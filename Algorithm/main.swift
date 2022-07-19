@@ -7,9 +7,10 @@
 
 import Foundation
 
-var num = Int(readLine()!)!
-for number in 1...9 {
-    for multiple in 1...9 {
-        print("\(number) 곱하기 \(multiple)은 \(number*multiple)")
-    }
+var input = Int(readLine()!)!
+var resArr :[Int] = []
+
+for _ in 0..<input{
+    var num = Int(readLine()!)!.components(separatedBy: " ")
+    
 }
