@@ -6,5 +6,18 @@
 //
 import Foundation
 
-var input = readLine()!
-print("\(input)")
+var input = Int(readLine()!)!
+var inputArr = readLine()!.components(separatedBy: " ")
+var res : [Int] = []
+
+for i in inputArr{
+    res.append(Int(i)!)
+}
+print(res.min()!, res.max()!)
+
+
+
+
+
+
+
