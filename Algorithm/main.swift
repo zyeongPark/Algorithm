@@ -4,21 +4,6 @@
 //
 //  Created by 박지영 on 2022/07/13.
 //
-import Foundation
-var input = Int(readLine()!)!
 
-
-
-
-//    let a = Int(input[0])
-//    let b = Int(input[1])
-//    swift에서 인덱싱은 위처럼 할 수 없고, 아래처럼 해야 한다.
-//    let a = Int(String(input[input.startIndex]))!
-//    let b = Int(String(input[input.index(input.startIndex, offsetBy: 1)]))!
-
-
-
-
-
-
+//4단계 2577번 풀고 있었음.// 1110, 10951, 2439번 다시 풀어야함
 
