@@ -6,6 +6,5 @@
 //
 
 import Foundation
-<<<<<<< HEAD
 //재도전
-//여기서부터 다시 해봐야지 
+
