@@ -7,18 +7,12 @@
 
 import Foundation
 
-// 1110, 10951, 2439번 다시 풀어야함
+//8958번 풀고 있었음. 1110, 10951, 2439번 다시 풀어야함
 
-//var count = 0
-//var input = Int(readLine()!)!
-//for _ in 1...input{
-//    var quiz = readLine()!
-////    if quiz[0] == "O"{
-////        count += 1
-////    }else{continue}
-////    for i in 1...input{
-////
-////    }
-//
-//}
+var count = 0
+var input = Int(readLine()!)!
+for i in 1...input{
+    let quiz = readLine()!
+    
+}
 
