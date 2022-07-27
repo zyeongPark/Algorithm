@@ -24,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E14A87702890EA0C004F5D86 /* 1480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1480.swift; sourceTree = "<group>"; };
+		E14A87712890EA36004F5D86 /* 724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 724.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		E1E3399C288823C6001844C0 /* 1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1065.swift; sourceTree = "<group>"; };
@@ -62,6 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E14A876E2890E9F5004F5D86 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				E14A876F2890E9FD004F5D86 /* Day1 */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		E14A876F2890E9FD004F5D86 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				E14A87702890EA0C004F5D86 /* 1480.swift */,
+				E14A87712890EA36004F5D86 /* 724.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +109,7 @@
 		E1FAA9E5287EE93A0088E4AE /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				E14A876E2890E9F5004F5D86 /* LeetCode */,
 				E1FAA9EE287EE9520088E4AE /* BOJ */,
 				E1FAA9ED287EE9430088E4AE /* programmers */,
 				E1FAA9E6287EE93A0088E4AE /* main.swift */,
