@@ -72,6 +72,7 @@
 		E14A876E2890E9F5004F5D86 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E14A877B28968554004F5D86 /* day5 */,
 				E14A87792894D8DB004F5D86 /* day4 */,
 				E14A877628935E8E004F5D86 /* day3 */,
 				E14A87722890EA82004F5D86 /* day2 */,
@@ -113,6 +114,13 @@
 				E14A877A2894D8E9004F5D86 /* 876.swift */,
 			);
 			path = day4;
+			sourceTree = "<group>";
+		};
+		E14A877B28968554004F5D86 /* day5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = day5;
 			sourceTree = "<group>";
 		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
