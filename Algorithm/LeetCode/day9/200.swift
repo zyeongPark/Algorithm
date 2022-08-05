@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+//방법1
 class Solution {
     func numIslands(_ grid: [[Character]]) -> Int {
         var result: Int = 0 // 섬의 갯수
@@ -43,5 +45,45 @@ class Solution {
             }
         }
         return result
+    }
+}
+
+//방법 2
+class Solution{
+    func numIslands(_ grid: [[Charater]]) -> Int {
+        //재귀 사용해서 해결
+        if grid.isEmpty {return 0}
+        
+        var grid = grid
+        var numOfIslands = 0
+        
+        for i in 0..<grid.count{
+            for j in 0..grid[i].count{
+                if grid[i][j] == "1" {
+                    //여기서 재귀 실행
+                    numOfIslands += count(&grid, i, j)
+                }
+            }
+        }
+        
+        return numOfIslands
+    }
+    //수직,수평으로 계산해야 되므로 inout 사용
+    private func count(_grid: inout [[Character]], _ i: Int, _ j: Int) -> Int{
+        //범위 잡아주기
+        if i < 0 || i >= grid.count || j <0 || j >= grid.count {return 0}
+        
+        if grid[i][j] == "0" {return 0}
+        
+        //이미 지나간 1 더블 카운트 피하기 위해서 0으로 바꿔준다.
+        grid[i][j] == "0"
+        
+        count(&grid, i+1, j)
+        count(&grid, i-1, j)
+        count(&grid, i, j+1)
+        count(&grid, i, j-1)
+        
+        //위를 다 만족하면 섬이니까 1을 추가할 수 있도록 1을 반환한다.
+        return 1
     }
 }
