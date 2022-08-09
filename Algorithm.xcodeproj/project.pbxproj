@@ -43,6 +43,10 @@
 		E14A878C289CA574004F5D86 /* 509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 509.swift; sourceTree = "<group>"; };
 		E14A878E289F7726004F5D86 /* 746.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 746.swift; sourceTree = "<group>"; };
 		E14A878F289F773A004F5D86 /* 62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62.swift; sourceTree = "<group>"; };
+		E14A879228A1E469004F5D86 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		E14A879328A1E47E004F5D86 /* 299.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 299.swift; sourceTree = "<group>"; };
+		E14A879428A1EA1F004F5D86 /* 438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 438.swift; sourceTree = "<group>"; };
+		E14A879528A1EA27004F5D86 /* 424.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 424.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		E1E3399C288823C6001844C0 /* 1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1065.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		E14A876E2890E9F5004F5D86 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E14A879128A1E451004F5D86 /* day13 */,
+				E14A879028A1E44B004F5D86 /* day12 */,
 				E14A878D289F76B9004F5D86 /* day11 */,
 				E14A878A289CA550004F5D86 /* day10 */,
 				E14A8787289B4B47004F5D86 /* day9 */,
@@ -193,6 +199,24 @@
 				E14A878F289F773A004F5D86 /* 62.swift */,
 			);
 			path = day11;
+			sourceTree = "<group>";
+		};
+		E14A879028A1E44B004F5D86 /* day12 */ = {
+			isa = PBXGroup;
+			children = (
+				E14A879428A1EA1F004F5D86 /* 438.swift */,
+				E14A879528A1EA27004F5D86 /* 424.swift */,
+			);
+			path = day12;
+			sourceTree = "<group>";
+		};
+		E14A879128A1E451004F5D86 /* day13 */ = {
+			isa = PBXGroup;
+			children = (
+				E14A879228A1E469004F5D86 /* 1.swift */,
+				E14A879328A1E47E004F5D86 /* 299.swift */,
+			);
+			path = day13;
 			sourceTree = "<group>";
 		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
