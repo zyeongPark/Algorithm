@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//testcase 중에 "1123" "0111" 만족시키지 못했음(다시 풀어보기) 
+//testcase 중에 "1123" "0111" 만족시키지 못했음(다시 풀어보기)-> 이걸 해결하려면 이중for문 쓰면 안됨
 class Solution {
     func getHint(_ secret: String, _ guess: String) -> String {
         var bulls = 0
