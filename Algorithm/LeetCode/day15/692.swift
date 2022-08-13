@@ -16,7 +16,7 @@ class Solution {
             hash[word, default: 0] += 1
         }
         
-        //여기가 메인 -> 클로져 사용법
+        //여기가 메인 -> 클로져 사용법 확인 해보기 
         let sorted: [(key: String, value: Int)] = hash.sorted { element1, element2 in
             if element1.value == element2.value {
                 return element1.key < element2.key
