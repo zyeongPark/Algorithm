@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//런타임 오버
+//런타임 오버: 이렇게 되면 계속해서 재귀로 계산해야되서 "런타임 오버" 뜬다.
 class Solution {
     func climbStairs(_ n: Int) -> Int {
         if n == 1{
