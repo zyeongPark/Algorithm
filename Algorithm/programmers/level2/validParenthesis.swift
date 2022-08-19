@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//스택 사용해서 풀기 
+//스택 사용해서 풀기
 func solution(_ s:String) -> Bool{
     var res:[Character] = []
     for x in s{
