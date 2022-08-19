@@ -12,9 +12,9 @@ func solution(_ clothes:[[String]]) -> Int {
   var result = 1
   //의상 종류별 개수 세기
   for cloth in clothes {
-    if dict[cloth[1]] != nil { //dict에 옷이 없다면
+    if dict[cloth[1]] != nil { //dict에 옷이 있다면 1 추가
       dict[cloth[1]]! += 1
-    } else { // dict에 해당 의상 종류가 이미 저장되어 있을 경우엔 1 추가
+    } else { // dict에 옷이 없다면 1로 초기화
         dict[cloth[1]] = 1
       }
   }
