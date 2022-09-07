@@ -54,6 +54,21 @@
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
 		E1B36E8928B226C4004CD669 /* featureDevelop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureDevelop.swift; sourceTree = "<group>"; };
+		E1B36E8A28B4695A004CD669 /* printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printer.swift; sourceTree = "<group>"; };
+		E1B36E8B28B5B74F004CD669 /* bridgePassingTruck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bridgePassingTruck.swift; sourceTree = "<group>"; };
+		E1B36E8C28B70DF0004CD669 /* diskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diskController.swift; sourceTree = "<group>"; };
+		E1B36E8D28B85D79004CD669 /* doublePriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doublePriorityQueue.swift; sourceTree = "<group>"; };
+		E1B36E8F28BE5A15004CD669 /* KthNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthNumber.swift; sourceTree = "<group>"; };
+		E1B36E9028BEEA67004CD669 /* minSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minSquare.swift; sourceTree = "<group>"; };
+		E1B36E9128BEF083004CD669 /* mockExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockExam.swift; sourceTree = "<group>"; };
+		E1B36E9228C035E3004CD669 /* carpet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carpet.swift; sourceTree = "<group>"; };
+		E1B36E9328C03CC8004CD669 /* findPrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPrimeNumber.swift; sourceTree = "<group>"; };
+		E1B36E9428C192B0004CD669 /* fatigue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fatigue.swift; sourceTree = "<group>"; };
+		E1B36E9528C195D6004CD669 /* splitThePowerByTwo .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "splitThePowerByTwo .swift"; sourceTree = "<group>"; };
+		E1B36E9628C590A2004CD669 /* vowelDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowelDictionary.swift; sourceTree = "<group>"; };
+		E1B36E9728C590E9004CD669 /* gymSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymSuit.swift; sourceTree = "<group>"; };
+		E1B36E9828C6D124004CD669 /* joyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joyStick.swift; sourceTree = "<group>"; };
+		E1B36E9928C6D133004CD669 /* makeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeBigNumber.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		E1E3399C288823C6001844C0 /* 1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1065.swift; sourceTree = "<group>"; };
@@ -251,6 +266,15 @@
 				E1B36E8428AC820C004CD669 /* disguise.swift */,
 				E1B36E8728AF165F004CD669 /* validParenthesis.swift */,
 				E1B36E8928B226C4004CD669 /* featureDevelop.swift */,
+				E1B36E8A28B4695A004CD669 /* printer.swift */,
+				E1B36E8B28B5B74F004CD669 /* bridgePassingTruck.swift */,
+				E1B36E9228C035E3004CD669 /* carpet.swift */,
+				E1B36E9328C03CC8004CD669 /* findPrimeNumber.swift */,
+				E1B36E9428C192B0004CD669 /* fatigue.swift */,
+				E1B36E9528C195D6004CD669 /* splitThePowerByTwo .swift */,
+				E1B36E9628C590A2004CD669 /* vowelDictionary.swift */,
+				E1B36E9828C6D124004CD669 /* joyStick.swift */,
+				E1B36E9928C6D133004CD669 /* makeBigNumber.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -259,8 +283,21 @@
 			isa = PBXGroup;
 			children = (
 				E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */,
+				E1B36E8C28B70DF0004CD669 /* diskController.swift */,
+				E1B36E8D28B85D79004CD669 /* doublePriorityQueue.swift */,
 			);
 			path = level3;
+			sourceTree = "<group>";
+		};
+		E1B36E8E28BE5A02004CD669 /* level1 */ = {
+			isa = PBXGroup;
+			children = (
+				E1B36E8F28BE5A15004CD669 /* KthNumber.swift */,
+				E1B36E9028BEEA67004CD669 /* minSquare.swift */,
+				E1B36E9128BEF083004CD669 /* mockExam.swift */,
+				E1B36E9728C590E9004CD669 /* gymSuit.swift */,
+			);
+			path = level1;
 			sourceTree = "<group>";
 		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
@@ -302,6 +339,7 @@
 		E1FAA9ED287EE9430088E4AE /* programmers */ = {
 			isa = PBXGroup;
 			children = (
+				E1B36E8E28BE5A02004CD669 /* level1 */,
 				E1B36E8528ADCCBA004CD669 /* level3 */,
 				E1B36E8328AC7DD4004CD669 /* level2 */,
 			);
