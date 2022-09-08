@@ -70,6 +70,7 @@
 		E1B36E9828C6D124004CD669 /* joyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joyStick.swift; sourceTree = "<group>"; };
 		E1B36E9928C6D133004CD669 /* makeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeBigNumber.swift; sourceTree = "<group>"; };
 		E1B36E9A28C96D6C004CD669 /* connectIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectIslands.swift; sourceTree = "<group>"; };
+		E1B36E9C28CA51AC004CD669 /* representSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = representSet.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		E1E3399C288823C6001844C0 /* 1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1065.swift; sourceTree = "<group>"; };
@@ -302,6 +303,14 @@
 			path = level1;
 			sourceTree = "<group>";
 		};
+		E1B36E9B28CA517D004CD669 /* step_30 */ = {
+			isa = PBXGroup;
+			children = (
+				E1B36E9C28CA51AC004CD669 /* representSet.swift */,
+			);
+			path = step_30;
+			sourceTree = "<group>";
+		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +360,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E1B36E9B28CA517D004CD669 /* step_30 */,
 				E1E3399928881A69001844C0 /* step_5 */,
 				E1FAAA332887180A0088E4AE /* step_4 */,
 				E1FAAA1B2885897C0088E4AE /* step_3 */,
