@@ -72,6 +72,7 @@
 		E1B36E9A28C96D6C004CD669 /* connectIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectIslands.swift; sourceTree = "<group>"; };
 		E1B36E9C28CA51AC004CD669 /* representSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = representSet.swift; sourceTree = "<group>"; };
 		E1B36E9D28D01034004CD669 /* expressByN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expressByN.swift; sourceTree = "<group>"; };
+		E1B36EA028D2C1CB004CD669 /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
 		E1E3399C288823C6001844C0 /* 1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1065.swift; sourceTree = "<group>"; };
@@ -313,6 +314,14 @@
 			path = step_30;
 			sourceTree = "<group>";
 		};
+		E1B36E9F28D2C1BC004CD669 /* dfs_bfs */ = {
+			isa = PBXGroup;
+			children = (
+				E1B36EA028D2C1CB004CD669 /* 1260.swift */,
+			);
+			path = dfs_bfs;
+			sourceTree = "<group>";
+		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +371,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E1B36E9F28D2C1BC004CD669 /* dfs_bfs */,
 				E1B36E9B28CA517D004CD669 /* step_30 */,
 				E1E3399928881A69001844C0 /* step_5 */,
 				E1FAAA332887180A0088E4AE /* step_4 */,
