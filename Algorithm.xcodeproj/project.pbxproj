@@ -53,6 +53,7 @@
 		E18A7D9228D612290078498D /* 2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2178.swift; sourceTree = "<group>"; };
 		E18A7D9328D949370078498D /*  wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " wordConversion.swift"; sourceTree = "<group>"; };
 		E18A7D9428DAA0B10078498D /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		E18A7D9528DBF2040078498D /* puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzle.swift; sourceTree = "<group>"; };
 		E1B36E8428AC820C004CD669 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
@@ -297,6 +298,7 @@
 				E1B36E9D28D01034004CD669 /* expressByN.swift */,
 				E18A7D9328D949370078498D /*  wordConversion.swift */,
 				E18A7D9428DAA0B10078498D /* network.swift */,
+				E18A7D9528DBF2040078498D /* puzzle.swift */,
 			);
 			path = level3;
 			sourceTree = "<group>";
