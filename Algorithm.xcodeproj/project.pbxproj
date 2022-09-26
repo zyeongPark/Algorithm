@@ -54,6 +54,7 @@
 		E18A7D9328D949370078498D /*  wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " wordConversion.swift"; sourceTree = "<group>"; };
 		E18A7D9428DAA0B10078498D /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
 		E18A7D9528DBF2040078498D /* puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzle.swift; sourceTree = "<group>"; };
+		E18A7D9728DDFAF60078498D /* 10809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10809.swift; sourceTree = "<group>"; };
 		E1B36E8428AC820C004CD669 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
@@ -269,6 +270,14 @@
 			path = day15;
 			sourceTree = "<group>";
 		};
+		E18A7D9628DDFAA20078498D /* step_6 */ = {
+			isa = PBXGroup;
+			children = (
+				E18A7D9728DDFAF60078498D /* 10809.swift */,
+			);
+			path = step_6;
+			sourceTree = "<group>";
+		};
 		E1B36E8328AC7DD4004CD669 /* level2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +390,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E18A7D9628DDFAA20078498D /* step_6 */,
 				E1B36E9F28D2C1BC004CD669 /* dfs_bfs */,
 				E1B36E9B28CA517D004CD669 /* step_30 */,
 				E1E3399928881A69001844C0 /* step_5 */,
