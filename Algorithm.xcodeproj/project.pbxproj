@@ -55,6 +55,8 @@
 		E18A7D9528DBF2040078498D /* puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzle.swift; sourceTree = "<group>"; };
 		E18A7D9728DDFAF60078498D /* 10809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10809.swift; sourceTree = "<group>"; };
 		E18A7D9828E157970078498D /* wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordConversion.swift; sourceTree = "<group>"; };
+		E18A7D9A28E3DC390078498D /* 1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1920.swift; sourceTree = "<group>"; };
+		E18A7D9B28E3DEA20078498D /*  Immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Immigration.swift"; sourceTree = "<group>"; };
 		E1B36E8428AC820C004CD669 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
@@ -278,6 +280,14 @@
 			path = step_6;
 			sourceTree = "<group>";
 		};
+		E18A7D9928E3DC270078498D /* binarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				E18A7D9A28E3DC390078498D /* 1920.swift */,
+			);
+			path = binarySearch;
+			sourceTree = "<group>";
+		};
 		E1B36E8328AC7DD4004CD669 /* level2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +318,7 @@
 				E18A7D9428DAA0B10078498D /* network.swift */,
 				E18A7D9528DBF2040078498D /* puzzle.swift */,
 				E18A7D9828E157970078498D /* wordConversion.swift */,
+				E18A7D9B28E3DEA20078498D /*  Immigration.swift */,
 			);
 			path = level3;
 			sourceTree = "<group>";
@@ -390,6 +401,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E18A7D9928E3DC270078498D /* binarySearch */,
 				E18A7D9628DDFAA20078498D /* step_6 */,
 				E1B36E9F28D2C1BC004CD669 /* dfs_bfs */,
 				E1B36E9B28CA517D004CD669 /* step_30 */,
