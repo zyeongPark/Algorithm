@@ -56,7 +56,7 @@
 		E18A7D9728DDFAF60078498D /* 10809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10809.swift; sourceTree = "<group>"; };
 		E18A7D9828E157970078498D /* wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordConversion.swift; sourceTree = "<group>"; };
 		E18A7D9A28E3DC390078498D /* 1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1920.swift; sourceTree = "<group>"; };
-		E18A7D9B28E3DEA20078498D /*  Immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Immigration.swift"; sourceTree = "<group>"; };
+		E18A7D9C28E3E35B0078498D /* immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immigration.swift; sourceTree = "<group>"; };
 		E1B36E8428AC820C004CD669 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
@@ -318,7 +318,7 @@
 				E18A7D9428DAA0B10078498D /* network.swift */,
 				E18A7D9528DBF2040078498D /* puzzle.swift */,
 				E18A7D9828E157970078498D /* wordConversion.swift */,
-				E18A7D9B28E3DEA20078498D /*  Immigration.swift */,
+				E18A7D9C28E3E35B0078498D /* immigration.swift */,
 			);
 			path = level3;
 			sourceTree = "<group>";
