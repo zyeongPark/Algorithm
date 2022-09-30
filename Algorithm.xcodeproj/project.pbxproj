@@ -57,6 +57,8 @@
 		E18A7D9828E157970078498D /* wordConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordConversion.swift; sourceTree = "<group>"; };
 		E18A7D9A28E3DC390078498D /* 1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1920.swift; sourceTree = "<group>"; };
 		E18A7D9C28E3E35B0078498D /* immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immigration.swift; sourceTree = "<group>"; };
+		E18A7D9E28E5308E0078498D /* steppingStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = steppingStone.swift; sourceTree = "<group>"; };
+		E18A7D9F28E715CB0078498D /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
 		E1B36E8428AC820C004CD669 /* disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disguise.swift; sourceTree = "<group>"; };
 		E1B36E8628ADCCC9004CD669 /* bestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestAlbum.swift; sourceTree = "<group>"; };
 		E1B36E8728AF165F004CD669 /* validParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validParenthesis.swift; sourceTree = "<group>"; };
@@ -284,8 +286,17 @@
 			isa = PBXGroup;
 			children = (
 				E18A7D9A28E3DC390078498D /* 1920.swift */,
+				E18A7D9F28E715CB0078498D /* 1654.swift */,
 			);
 			path = binarySearch;
+			sourceTree = "<group>";
+		};
+		E18A7D9D28E530720078498D /* level4 */ = {
+			isa = PBXGroup;
+			children = (
+				E18A7D9E28E5308E0078498D /* steppingStone.swift */,
+			);
+			path = level4;
 			sourceTree = "<group>";
 		};
 		E1B36E8328AC7DD4004CD669 /* level2 */ = {
@@ -391,6 +402,7 @@
 		E1FAA9ED287EE9430088E4AE /* programmers */ = {
 			isa = PBXGroup;
 			children = (
+				E18A7D9D28E530720078498D /* level4 */,
 				E1B36E8E28BE5A02004CD669 /* level1 */,
 				E1B36E8528ADCCBA004CD669 /* level3 */,
 				E1B36E8328AC7DD4004CD669 /* level2 */,
