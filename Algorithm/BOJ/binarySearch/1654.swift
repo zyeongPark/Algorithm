@@ -7,7 +7,7 @@
 
 import Foundation
 func solution() -> Int {
-    //값 입력받기
+    //값 입력받는 부분 
     let inputLine = readLine()!.split(separator: " ").map({Int($0)!})
     let k = inputLine[0]
     let n = inputLine[1]
