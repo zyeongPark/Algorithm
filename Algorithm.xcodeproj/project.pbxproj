@@ -51,6 +51,7 @@
 		E14A879A28A573C3004F5D86 /* 1046.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1046.swift; sourceTree = "<group>"; };
 		E14A879B28A573D0004F5D86 /* 692.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 692.swift; sourceTree = "<group>"; };
 		E15AC99428EBC3C800372060 /* 24444.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24444.swift; sourceTree = "<group>"; };
+		E15AC99528F4FB7700372060 /* farthestNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = farthestNode.swift; sourceTree = "<group>"; };
 		E18A7D9228D612290078498D /* 2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2178.swift; sourceTree = "<group>"; };
 		E18A7D9428DAA0B10078498D /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
 		E18A7D9528DBF2040078498D /* puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = puzzle.swift; sourceTree = "<group>"; };
@@ -339,6 +340,7 @@
 				E18A7D9528DBF2040078498D /* puzzle.swift */,
 				E18A7D9828E157970078498D /* wordConversion.swift */,
 				E18A7D9C28E3E35B0078498D /* immigration.swift */,
+				E15AC99528F4FB7700372060 /* farthestNode.swift */,
 			);
 			path = level3;
 			sourceTree = "<group>";
