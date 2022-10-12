@@ -4,9 +4,8 @@
 //
 //  Created by 박지영 on 2022/10/12.
 //
-
 import Foundation
-//플로이드-와샬 알고리즘
+//플로이드-워셜 알고리즘 사용하는 문제 
 let INF: Int = Int(1e9)
 var city: Int = 0 // 도시의 개수
 var bus: Int = 0 // 버스의 개수
@@ -16,7 +15,7 @@ if let input = readLine() {
     city = Int(input)!
 }
  
-// 버스 개수 입력
+// 버스 개수 입력하기
 if let input = readLine() {
     bus = Int(input)!
 }
@@ -37,13 +36,13 @@ for _ in 0..<bus {
         let b: Int = inputs[1]
         let c: Int = inputs[2]
         
-        // 문제에서 시작 도시와 도착 도시를 연결하는 노선이 하나가 아닐 수 있다고 주어짐
-        // 그렇기 때문에 a에서 b로 가는 노선이 여러개 주어질 경우 graph 배열에 최솟값을 넣어주도록 설정
+        // 문제에서 시작 도시와 도착 도시를 연결하는 노선이 하나가 아닐 수 있다고 함
+        // 즉, a에서 b로 가는 노선이 여러개 주어질 경우 graph 배열에 최솟값을 넣어주도록 설정
         graph[a][b] = min(graph[a][b], c)
     }
 }
  
-// 플로이드 워셜 알고리즘 수행
+// 플로이드 워셜
 for k in 1...city {
     for i in 1...city {
         for j in 1...city {
@@ -52,7 +51,7 @@ for k in 1...city {
     }
 }
  
-// 출력
+// 결과 출력
 for i in 1...city {
     for j in 1...city {
         if graph[i][j] == INF {
