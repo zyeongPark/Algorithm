@@ -5,17 +5,14 @@
 //  Created by 박지영 on 2022/10/12.
 //
 import Foundation
-//플로이드-워셜 알고리즘 사용하는 문제 
+//플로이드-워셜 알고리즘 사용하는 문제
 let INF: Int = Int(1e9)
 var city: Int = 0 // 도시의 개수
 var bus: Int = 0 // 버스의 개수
- 
-// 도시 개수 입력
+//입력받기
 if let input = readLine() {
     city = Int(input)!
 }
- 
-// 버스 개수 입력하기
 if let input = readLine() {
     bus = Int(input)!
 }
@@ -28,7 +25,7 @@ for i in 1...city {
     graph[i][i] = 0
 }
  
-// 버스 정보 입력
+// 버스 정보 입력하기 
 for _ in 0..<bus {
     if let input = readLine() {
         let inputs = input.split(separator: " ").map { Int($0)! }
