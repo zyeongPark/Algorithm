@@ -25,7 +25,7 @@ for i in 1...city {
     graph[i][i] = 0
 }
  
-// 버스 정보 입력하기 
+// 버스 정보 입력받기
 for _ in 0..<bus {
     if let input = readLine() {
         let inputs = input.split(separator: " ").map { Int($0)! }
