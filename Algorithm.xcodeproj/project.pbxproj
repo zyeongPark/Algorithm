@@ -86,6 +86,8 @@
 		E1B36EA028D2C1CB004CD669 /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
 		E1B36EA128D4093C004CD669 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		E1BBD21028FC1303008B64F8 /* 1753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1753.swift; sourceTree = "<group>"; };
+		E1BBD21128FCD0B1008B64F8 /* heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heap.swift; sourceTree = "<group>"; };
+		E1BBD21228FE2168008B64F8 /* heapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heapSort.swift; sourceTree = "<group>"; };
 		E1BC648D28F653DE0078D9F1 /* 11404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11404.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
@@ -284,6 +286,8 @@
 				E15AC99428EBC3C800372060 /* 24444.swift */,
 				E1BC648D28F653DE0078D9F1 /* 11404.swift */,
 				E1BBD21028FC1303008B64F8 /* 1753.swift */,
+				E1BBD21128FCD0B1008B64F8 /* heap.swift */,
+				E1BBD21228FE2168008B64F8 /* heapSort.swift */,
 			);
 			path = graph;
 			sourceTree = "<group>";
