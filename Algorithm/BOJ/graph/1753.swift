@@ -7,11 +7,12 @@
 
 //다익스트라 알고리즘 with heap
 import Foundation
-//힙 자료구조
+//힙 자료구조 - 혼자 짜볼 수 있도록
+
 public struct Heap<T> {
   var nodes: [T] = []
   let comparer: (T,T) -> Bool
-
+s
   var isEmpty: Bool {
       return nodes.isEmpty
   }

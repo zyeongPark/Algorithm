@@ -4,9 +4,8 @@
 //
 //  Created by 박지영 on 2022/10/18.
 //
-
 import Foundation
-//힙소트 공부용 
+//힙소트 공부용
 func heapify<T : Comparable>(_ array: inout [T], _ i: Int, _ size: Int) {
     var largest = i
     let left = i * 2 + 1
@@ -25,13 +24,11 @@ func heapify<T : Comparable>(_ array: inout [T], _ i: Int, _ size: Int) {
         heapify(&array, largest, size)
     }
 }
-
 func swap<T : Comparable>(_ array: inout [T] , _ i: Int, _ j: Int) {
     let temp = array[i]
     array[i] = array[j]
     array[j] = temp
 }
-
 func buildHeap<T : Comparable>(_ array: inout [T]) {
     var i = array.count/2
     
@@ -40,7 +37,6 @@ func buildHeap<T : Comparable>(_ array: inout [T]) {
         i -= 1
     }
 }
-
 func heapSort<T : Comparable>(_ array: inout [T]) -> [T] {
     buildHeap(&array)
     
