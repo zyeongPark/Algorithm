@@ -88,6 +88,7 @@
 		E1BBD21028FC1303008B64F8 /* 1753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1753.swift; sourceTree = "<group>"; };
 		E1BBD21128FCD0B1008B64F8 /* heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heap.swift; sourceTree = "<group>"; };
 		E1BBD21228FE2168008B64F8 /* heapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heapSort.swift; sourceTree = "<group>"; };
+		E1BBD2142900A2BC008B64F8 /* bubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbleSort.swift; sourceTree = "<group>"; };
 		E1BC648D28F653DE0078D9F1 /* 11404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11404.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
@@ -286,8 +287,6 @@
 				E15AC99428EBC3C800372060 /* 24444.swift */,
 				E1BC648D28F653DE0078D9F1 /* 11404.swift */,
 				E1BBD21028FC1303008B64F8 /* 1753.swift */,
-				E1BBD21128FCD0B1008B64F8 /* heap.swift */,
-				E1BBD21228FE2168008B64F8 /* heapSort.swift */,
 			);
 			path = graph;
 			sourceTree = "<group>";
@@ -382,6 +381,16 @@
 			path = dfs_bfs;
 			sourceTree = "<group>";
 		};
+		E1BBD2132900A2A1008B64F8 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBD21228FE2168008B64F8 /* heapSort.swift */,
+				E1BBD21128FCD0B1008B64F8 /* heap.swift */,
+				E1BBD2142900A2BC008B64F8 /* bubbleSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		E1E3399928881A69001844C0 /* step_5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +441,7 @@
 		E1FAA9EE287EE9520088E4AE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				E1BBD2132900A2A1008B64F8 /* Sort */,
 				E15AC99328EBC3B300372060 /* graph */,
 				E18A7D9928E3DC270078498D /* binarySearch */,
 				E18A7D9628DDFAA20078498D /* step_6 */,

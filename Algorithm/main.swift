@@ -14,54 +14,54 @@ struct Node {
 }
 struct MinHeap {
     var heap = [Node(number: 0, weight: 0)]
-    
+
     var isEmpty: Bool { return heap.count == 1 }
-    
+
     func parentIndex(_ index: Int) -> Int {
         index / 2
     }
-    
+
     private func leftChildIndex(of index: Int) -> Int {
         index * 2
     }
-    
+
     private func rightChildIndex(of index: Int) -> Int {
         index * 2 + 1
     }
-    
+
     mutating func enqueue(_ element: Node) {
         if heap.count == 1 {
             heap.append(element)
             return
         }
         heap.append(element)
-        
+
         restructureForPush()
     }
     mutating func restructureForPush() {
         var index = heap.count - 1
-        
+
         while index != 1 && heap[index].weight < heap[parentIndex(index)].weight {
             heap.swapAt(index, parentIndex(index))
             index /= 2
         }
     }
-    
+
     mutating func dequeue() -> Node? {
         guard heap.count > 1 else { return nil}
-        
+
         if heap.count == 2 {
             return heap.removeLast()
         }
-        
+
         let minValueNode = heap[1]
         heap[1] = heap.removeLast()
-        
+
         restructureForPop()
-        
+
         return minValueNode
     }
-    
+
     mutating func restructureForPop() {
         var index = 1
         while rightChildIndex(of: index) < heap.count {
@@ -75,7 +75,7 @@ struct MinHeap {
                 index = rightChildIndex(of: index)
             }
         }
-        
+
         if leftChildIndex(of: index) < heap.count && heap[index].weight > heap[leftChildIndex(of: index)].weight {
             heap.swapAt(index, leftChildIndex(of: index))
         }
@@ -101,7 +101,7 @@ for index in 1...numberOfVertices {
 for _ in 0..<numberOfEdges {
     let inputData = readLine()!.components(separatedBy: " ").map { Int($0)! }
     let (departure, destination, weight) = (inputData[0], inputData[1], inputData[2])
-    
+
     graph[departure][destination] = weight
 }
 
@@ -110,10 +110,10 @@ func solution(_ start: Int) {
     priorityQueue.enqueue(Node(number: start, weight: graph[start][start]))
 
     minWeight[start] = 0
-    
+
     while !priorityQueue.isEmpty {
         guard let now = priorityQueue.dequeue() else { return }
-        
+
         if minWeight[now.number] < now.weight {
             continue
         }
@@ -137,3 +137,4 @@ for index in 1...numberOfVertices {
         print(minWeight[index])
     }
 }
+
