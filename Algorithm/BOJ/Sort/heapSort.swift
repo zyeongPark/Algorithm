@@ -10,11 +10,9 @@ func heapify<T : Comparable>(_ array: inout [T], _ i: Int, _ size: Int) {
     var largest = i
     let left = i * 2 + 1
     let right = i * 2 + 2
-    
     if left < size && array[largest] < array[left] {
         largest = left
     }
-    
     if right < size && array[largest] < array[right] {
         largest = right
     }
@@ -39,10 +37,8 @@ func buildHeap<T : Comparable>(_ array: inout [T]) {
 }
 func heapSort<T : Comparable>(_ array: inout [T]) -> [T] {
     buildHeap(&array)
-    
     var size = array.count
     var i = size - 1
-    
     while i >= 1 {
         swap(&array, i, 0)
         print("\(array)")
