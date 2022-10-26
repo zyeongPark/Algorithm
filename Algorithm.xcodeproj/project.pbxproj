@@ -93,6 +93,7 @@
 		E1BBD216290584B4008B64F8 /* insertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertionSort.swift; sourceTree = "<group>"; };
 		E1BBD217290816EF008B64F8 /* quickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickSort.swift; sourceTree = "<group>"; };
 		E1BBD21829097CE4008B64F8 /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
+		E1BBD21929097D10008B64F8 /* countingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countingSort.swift; sourceTree = "<group>"; };
 		E1BC648D28F653DE0078D9F1 /* 11404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11404.swift; sourceTree = "<group>"; };
 		E1E3399A28881A79001844C0 /* 4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4673.swift; sourceTree = "<group>"; };
 		E1E3399B28881D24001844C0 /* 1110.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1110.swift; sourceTree = "<group>"; };
@@ -395,6 +396,7 @@
 				E1BBD216290584B4008B64F8 /* insertionSort.swift */,
 				E1BBD217290816EF008B64F8 /* quickSort.swift */,
 				E1BBD21829097CE4008B64F8 /* mergeSort.swift */,
+				E1BBD21929097D10008B64F8 /* countingSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
