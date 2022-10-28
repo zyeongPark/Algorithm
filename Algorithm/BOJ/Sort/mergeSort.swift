@@ -6,4 +6,4 @@
 //
 
 import Foundation
-//병합 정렬
+//병합 정렬 개념 정리
