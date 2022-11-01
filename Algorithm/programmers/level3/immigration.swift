@@ -7,6 +7,8 @@
 
 import Foundation
 //이분 탐색(binary search) + 매개변수 탐색(parametric search)
+
+
 import Foundation
 func solution(_ n:Int, _ times:[Int]) -> Int64 {
     var result : Int64 = 0

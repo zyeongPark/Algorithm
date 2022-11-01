@@ -6,7 +6,7 @@
 //
 // 4673, 10951, 2439번
 
-import Foundation
+//import Foundation
 //열목이님 코드 다시보기
 //struct Node {
 //    let number: Int
@@ -137,46 +137,65 @@ import Foundation
 //        print(minWeight[index])
 //    }
 //}
+import Foundation
 
-var array :[Int] = [4,5,1,3,2]
+let input = readLine()!.split(separator: " ").map{ Int(String($0))! }
+let (n, k) = (input[0], input[1])
+var count = 0
+var tmp:[Int] = []
+var answer = 0
 
-func mergeSort(arr:[Int]) -> [Int] {
-    guard arr.count > 1 else{return arr}
-    let middle = arr.count/2
-    let leftArr = mergeSort(arr: Array(arr[0..<middle]))
-    let rightArr = mergeSort(arr: Array(arr[middle..<arr.count]))
-    return merge(left: leftArr, right: rightArr)
 
+
+func mergeSort(_ array: inout [Int], _ start: Int, _ end: Int) {
+    if start < end {
+        if count > k { return }
+        let mid = (start + end) / 2
+        mergeSort(&array, start, mid)
+        mergeSort(&array, mid + 1, end)
+        merge(&array, start, mid, end)
+    }
 }
 
-func merge(left:[Int], right:[Int]) -> [Int]{
-    var leftIdx = 0
-    var rightIdx = 0
-    var ordered = [Int]()
-    while leftIdx < left.count , rightIdx < right.count{
-        if left[leftIdx] < right[rightIdx] {
-            ordered.append(left[leftIdx])
-            leftIdx += 1
-        }else if left[leftIdx] > right[rightIdx] {
-            ordered.append(right[rightIdx])
-            rightIdx += 1
-        }else{
-            ordered.append(left[leftIdx])
-            leftIdx += 1
-            ordered.append(right[rightIdx])
-            rightIdx += 1
-        }
-    }
-    while leftIdx < left.count{
-        ordered.append(left[leftIdx])
-        leftIdx += 1
-    }
-    while rightIdx < right.count{
-        ordered.append(right[rightIdx])
-        rightIdx += 1
-    }
-    return ordered
+func merge(_ array: inout [Int], _ start: Int, _ mid: Int, _ end: Int) {
+    var i = start
+    var j = mid + 1
+    var t = 0
     
+    while i <= mid && j <= end {
+        if array[i] <= array[j] {
+            tmp[t] = array[i]
+            i += 1
+        } else {
+            tmp[t] = array[j]
+            j += 1
+        }
+        t += 1
+    }
+    
+    while i <= mid {
+        tmp[t] = array[i]
+        i += 1
+        t += 1
+    }
+    
+    while j <= end {
+        tmp[t] = array[j]
+        j += 1
+        t += 1
+    }
+    
+    i = start; t = 0
+    
+    while i <= end {
+        count += 1
+        if count == k {
+            answer = tmp[t]
+            break
+        }
+        array[i] = tmp[t]
+        i += 1; t += 1
+    }
 }
-print(mergeSort(arr: (array)))
 
+print(answer)
