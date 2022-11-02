@@ -23,7 +23,7 @@ func solution(_ n:Int, _ times:[Int]) -> Int64 {
         if(people >= n) {
             result = mid
             hi = mid - 1
-        } else {
+        } else { // 그렇지 않다면 ~ 
             lo = mid + 1
         }
     }
