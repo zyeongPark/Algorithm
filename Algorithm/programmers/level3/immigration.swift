@@ -8,7 +8,6 @@
 import Foundation
 //이분 탐색(binary search) + 매개변수 탐색(parametric search)
 
-
 import Foundation
 func solution(_ n:Int, _ times:[Int]) -> Int64 {
     var result : Int64 = 0
@@ -23,7 +22,7 @@ func solution(_ n:Int, _ times:[Int]) -> Int64 {
         if(people >= n) {
             result = mid
             hi = mid - 1
-        } else { // 그렇지 않다면 ~ 
+        } else { // 그렇지 않다면 ~
             lo = mid + 1
         }
     }
