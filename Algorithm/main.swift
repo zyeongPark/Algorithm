@@ -7,19 +7,9 @@
 // 4673, 10951, 2439번
 
 import Foundation
-//programmars - 괄호변환
+//programmars - 괄호변환 retry
 var input = readLine()!
 //var right = []
 //var left = []
 
-for x in input{
-    if x == "("{
-        right.append(x)
-    }else{
-        left.append(x)
-    }
-}
-
-print(right)
-pring(left)
 
